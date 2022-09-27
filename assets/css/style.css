@@ -20,7 +20,7 @@
 
 header {
     background-color: #333;
-    height: 100vh;
+    /* height: 100vh; */
     color: whitesmoke;
 }
 
@@ -33,7 +33,7 @@ header h1 {
 }
 
 header section {
-    width: 25vw;
+    width: 300px;
     margin: 25vh auto 0 auto;
     background-image: linear-gradient(to top right,
             #8507e1, #194894, #3dc8d5);
@@ -46,8 +46,10 @@ header section:hover {
 }
 
 header section h2 {
+    /* width: 25vw; */
     font-family: Gilda;
     font-size: 4rem;
+
 }
 
 header section p {
